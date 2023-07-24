@@ -8,14 +8,14 @@ class A
     void getdata()
     {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter your age");
+        System.out.println("Enter your age");// Input data
         age = sc.nextInt();
         System.out.println("Enter our id");
         id = sc.nextInt();
     }
 }
 class B extends A{
-    void showdata()
+    void showdata() // show data
     {
         System.out.println("Person age is: "+age);
         System.out.println("Person id is: "+id);
